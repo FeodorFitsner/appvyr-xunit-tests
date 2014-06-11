@@ -8,6 +8,7 @@ namespace xUnit_x64_Clr4
 {
     public class xUnit_x64_CLR4_Tests
     {
+        [Fact]
         public void TestA()
         {
             Assert.Equal(2, 2);

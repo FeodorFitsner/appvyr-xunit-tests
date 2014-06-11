@@ -8,6 +8,7 @@ namespace xUnit_AnyCPU_Clr2
 {
     public class xUnit_AnyCPU_CLR2_Tests
     {
+        [Fact]
         public void TestA()
         {
             Assert.Equal(2, 2);
