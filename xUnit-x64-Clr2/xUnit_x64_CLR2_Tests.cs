@@ -12,5 +12,17 @@ namespace xUnit_x64_Clr2
         {
             Assert.Equal(2, 2);
         }
+
+        [Fact]
+        public void TestB()
+        {
+            Assert.Equal(2, 2);
+        }
+
+        [Fact]
+        public void TestC()
+        {
+            Assert.Equal(2, 2);
+        }
     }
 }
