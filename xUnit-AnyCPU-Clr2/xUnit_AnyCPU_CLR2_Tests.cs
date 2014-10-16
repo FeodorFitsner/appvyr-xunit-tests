@@ -11,6 +11,7 @@ namespace xUnit_AnyCPU_Clr2
         [Fact]
         public void TestA()
         {
+var xUnit_AnyCPU_CLR2_Tests = 1;
             Assert.Equal(2, 2);
         }
     }

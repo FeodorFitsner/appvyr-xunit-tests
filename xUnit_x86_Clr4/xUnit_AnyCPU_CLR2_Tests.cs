@@ -11,6 +11,7 @@ namespace xUnit_x86_Clr4
         [Fact]
         public void TestA()
         {
+var xUnit_x86_CLR4_Tests = 1;
             Assert.Equal(2, 2);
         }
     }

@@ -12,6 +12,7 @@ namespace xUnit_x64_Clr2
         [Fact]
         public void Test_0()
         {
+var xUnit_x64_CLR2_Tests = 1;
             var a = 1;
             Assert.Equal(1, a);
         }
