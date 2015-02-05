@@ -1,7 +1,7 @@
 version: 1.0.{build}
 
 environment:
-  my_folder: %APPVEYOR_BUILD_FOLDER%\test101
+  my_folder: '%APPVEYOR_BUILD_FOLDER%\test101'
 
 assembly_info:
   patch: true
