@@ -16,7 +16,7 @@ cache:
 before_build:
 - nuget restore
 - echo %my_folder%
-- pwsh: exit 0
+- pwsh: write-host "PWSH CORE!"
 
 build:
   verbosity: minimal
