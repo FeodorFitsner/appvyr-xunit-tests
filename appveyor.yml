@@ -19,5 +19,9 @@ before_build:
 
 build:
   verbosity: minimal
+ 
+on_failure:
+- ps: Get-EventLog AppVeyor -newest 2 | Format-List
+- dir
   
 #test: off
