@@ -16,7 +16,7 @@ cache:
 before_build:
 - nuget restore
 - echo %my_folder%
-- pwsh: exit 22
+- pwsh: exit 0
 
 build:
   verbosity: minimal
